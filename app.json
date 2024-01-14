@@ -2,29 +2,42 @@
   "expo": {
     "name": "infinity-immo-seller",
     "slug": "infinity-immo-seller",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#00334d"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.geneses.infinityimmoseller",
+      "buildNumber": "1.0.2",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Infinity Immo veut avoir accès à votre camera pour capturer des photos sur la plateforme...",
+        "NSPhotoLibraryUsageDescription": "Infinity Immo veut avoir accès à votre galerie photo pour uploader des photos sur la plateforme..."
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#00334d"
+      },
+      "package": "com.geneses.infinityimmoseller",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "557d3dfe-98c7-402c-a383-661e2ab8f546"
+      }
     }
   }
 }

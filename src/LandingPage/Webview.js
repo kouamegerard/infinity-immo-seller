@@ -3,7 +3,7 @@ import React from 'react';
 import { WebView } from 'react-native-webview';
 
 const WebViewScreen = () => {
-  const url = "https://infinity-immo.com/clients/home";
+  const url = "https://infinity-immo.com/sellers/login";
 
   return (
     <WebView
